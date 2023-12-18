@@ -9,7 +9,6 @@
   --text_destaque: #127AD8;
   --bg_projects: #0F1726;
   --header_color:white;
-  --background-img: url('./nuvem.png')
 }
 
 [data-theme="dark"] {
@@ -17,8 +16,11 @@
   --body_color: white;
   --body_color_reversed: black;
   --header_color: #4D5D72;
-  --background-img: url('./nuvem-dark.png');
 
+}
+
+[data-theme="dark"] .home{
+  background-image: url('./nuvem-dark.png');
 }
 
 * {

@@ -1,5 +1,5 @@
 .home {
-  background-image: var(--background-img);
+  background-image: url('./nuvem.png');
   background-position: left bottom;
   background-repeat: no-repeat;
   background-size: cover;
