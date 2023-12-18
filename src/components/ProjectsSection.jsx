@@ -17,7 +17,7 @@ const ProjectsSection = () => {
       title: "Calculadora utilizando React",
       description:
         "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React",
-      link: "https://joaoviictorss.github.io/Flappy-Bird/",
+      link: "https://joaoviictorss.github.io/Calculadora-React/",
     },
   ];
 
