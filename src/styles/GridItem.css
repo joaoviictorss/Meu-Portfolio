@@ -1,0 +1,19 @@
+.grid-item {
+  height: 70px;
+  width: 230px;
+  border-radius: 7px;
+  background-color: #cac9c948;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.name-gridIcon {
+  font-size: 1.2em;
+  font-weight: 350;
+}
+.svg-gridIcon {
+  width: 46px;
+  height: auto;
+}

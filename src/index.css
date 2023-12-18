@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300;400;700&display=swap');
+
+:root {
+  --body_background: white;
+  --body_color: black;
+  --body_color_reversed: white;
+  --text_destaque: #127AD8;
+  --bg_projects: #0F1726;
+  --header_color:white;
+  --background-img: url('./nuvem.png')
+}
+
+[data-theme="dark"] {
+  --body_background: #0F1726;
+  --body_color: white;
+  --body_color_reversed: black;
+  --header_color: #4D5D72;
+  --background-img: url('./nuvem-dark.png');
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+
+body { 
+  background-color: var(--body_background);
+  color: var(--body_color);
+}
+
+
+.destaque-text {
+  color: var(--text_destaque);
+  font-size: 1.8rem;
+  margin: 26px 0px;
+  font-weight: 600
+}
+
+.title-section{
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 50px 0px;
+  color: var(--body_color);
+  margin: 25px 0px;
+}
+.paragraph {
+  font-size: 1.4rem;
+  font-weight: 350;
+  color: var(--body_color);
+}
+
+.container {
+  width: 80%;
+}

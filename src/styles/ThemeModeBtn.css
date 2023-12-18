@@ -1,0 +1,10 @@
+.dark_mode_input {
+  display: none;
+}
+
+.dark_mode_toogle {
+  cursor: pointer;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}

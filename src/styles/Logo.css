@@ -1,0 +1,15 @@
+.logo {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 120px;
+  text-decoration: none;
+  color: var(--body_color);
+}
