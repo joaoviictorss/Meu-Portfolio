@@ -109,9 +109,3 @@ span {
     max-width: 100%;
   }
 }
-
-@media (max-width: 900px){
-  .svg {
-    display: none;
-  }
-}
