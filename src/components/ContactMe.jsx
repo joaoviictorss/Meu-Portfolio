@@ -68,7 +68,7 @@ const ContactMe = () => {
                 target="_blank"
                 className="social-media"
               >
-                <img src="/public/icons8-github1.svg" alt="Link github" />
+                <img src="./icons8-github1.svg" alt="Link github" />
               </a>
               <a
                 href="https://www.linkedin.com/in/joao-viictor/"
