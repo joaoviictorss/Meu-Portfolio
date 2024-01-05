@@ -80,6 +80,7 @@ span {
   }
   .infos {
     text-align: center;
+    ;
   }
   .container-btn {
     width: 100%;
@@ -101,12 +102,13 @@ span {
     justify-content: center;
     width: 100%;
   }
-  .infos {
-    margin-top: 60px;
-  }
 
   .content-home {
     max-width: 100%;
+  }
+
+  .svg{
+    max-width: 50%;
   }
 }
 
@@ -131,4 +133,8 @@ span {
   .content-home {
     max-width: 100%;
   }
+
+.container-btn{
+  justify-content: flex-start;
+}
 }
