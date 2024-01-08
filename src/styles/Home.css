@@ -33,6 +33,7 @@
 span {
   font-size: 3.45rem;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .home span {

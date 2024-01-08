@@ -19,6 +19,14 @@ const ProjectsSection = () => {
         "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React",
       link: "https://joaoviictorss.github.io/Calculadora-React/",
     },
+    {
+      id: 3,
+      urlImg: "./img-projects/imc-calc.png",
+      title: "Calculadora de IMC utilizando TypeScript",
+      description:
+        "Meu primeiro projeto utilizando TypeScript e React",
+      link: "https://joaoviictorss.github.io/imc-calculator/"
+    },
   ];
 
   return (
@@ -34,7 +42,6 @@ const ProjectsSection = () => {
             link={project.link}
           />
         ))}
-        <Project title="EM BREVE..." description="EM BREVE..." />
       </div>
     </section>
   );
