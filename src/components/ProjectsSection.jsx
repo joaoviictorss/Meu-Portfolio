@@ -5,6 +5,14 @@ const ProjectsSection = () => {
   const projects = [
     {
       id: 1,
+      urlImg: "./img-projects/pet-web-app-img.png",
+      title: "Pet Web App",
+      description:
+        "Um sistema de adoção de animais criado com Next.js e integração ao Firebase, consulta e exibi os dados dos animais cadastrados. ",
+      link: "https://pet-web-app-two.vercel.app/",
+    },
+    {
+      id: 2,
       urlImg: "./img-projects/flappy-bird.png",
       title: "Flappy Bird",
       description:
@@ -12,7 +20,7 @@ const ProjectsSection = () => {
       link: "https://joaoviictorss.github.io/Flappy-Bird/",
     },
     {
-      id: 2,
+      id: 3,
       urlImg: "./img-projects/calc.png",
       title: "Calculadora utilizando React",
       description:
@@ -20,7 +28,7 @@ const ProjectsSection = () => {
       link: "https://joaoviictorss.github.io/Calculadora-React/",
     },
     {
-      id: 3,
+      id: 4,
       urlImg: "./img-projects/imc-calc.png",
       title: "Calculadora de IMC utilizando TypeScript",
       description:
