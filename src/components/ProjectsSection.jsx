@@ -8,7 +8,7 @@ const ProjectsSection = () => {
       urlImg: "./img-projects/pet-web-app-img.png",
       title: "Pet Web App",
       description:
-        "Um sistema de adoção de animais criado com Next.js e integração ao Firebase, consulta e exibi os dados dos animais cadastrados. ",
+        " - Um sistema de adoção de animais criado com Next.js e integração ao Firebase, consulta e exibi os dados dos animais cadastrados. ",
       link: "https://pet-web-app-two.vercel.app/",
     },
     {
@@ -16,15 +16,15 @@ const ProjectsSection = () => {
       urlImg: "./img-projects/flappy-bird.png",
       title: "Flappy Bird",
       description:
-        "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando HTML, CSS e JavaScript",
-      link: "https://joaoviictorss.github.io/Flappy-Bird/",
+        "- Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando somente JavaScript",
+      link: "https://joaoviictorss.github.io/Flappy-Bird/.",
     },
     {
       id: 3,
       urlImg: "./img-projects/calc.png",
       title: "Calculadora utilizando React",
       description:
-        "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React",
+        "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React.",
       link: "https://joaoviictorss.github.io/Calculadora-React/",
     },
     {
@@ -32,7 +32,7 @@ const ProjectsSection = () => {
       urlImg: "./img-projects/imc-calc.png",
       title: "Calculadora de IMC utilizando TypeScript",
       description:
-        "Meu primeiro projeto utilizando TypeScript e React",
+        "Meu primeiro projeto integrando o TypeScript junto do React.",
       link: "https://joaoviictorss.github.io/imc-calculator/"
     },
   ];

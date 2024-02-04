@@ -39,7 +39,7 @@ const ContactMe = () => {
               <textarea
                 name="message"
                 cols="110"
-                rows="6"
+                rows="4"
                 placeholder="Digite sua mensagem..."
               ></textarea>
             </div>

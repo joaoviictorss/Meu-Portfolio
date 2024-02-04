@@ -3,11 +3,10 @@ import Home from './components/Home'
 import AboutMeSection from './components/AboutMeSection'
 import GridSection from './components/GridSection'
 import ProjectsSection from './components/ProjectsSection'
+import ContactMe from './components/ContactMe'
 
 
 import './App.css'
-import ContactMe from './components/ContactMe'
-import Footer from './components/Footer'
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <GridSection/>
       <ProjectsSection />
       <ContactMe />
-      <Footer />
     </>
   )
 }
