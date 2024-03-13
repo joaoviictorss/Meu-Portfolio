@@ -24,15 +24,23 @@ const ProjectsSection = () => {
       urlImg: "./img-projects/calc.png",
       title: "Calculadora utilizando React",
       description:
-        "Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React.",
+        "- Projeto criado no curso de Web Moderno de JavaScript, junto com o professor Leonardo Leitão, utilizando React.",
       link: "https://joaoviictorss.github.io/Calculadora-React/",
     },
     {
       id: 4,
+      urlImg: "./img-projects/form-with-progress.png",
+      title: "Formulario com progressão",
+      description:
+        "- Projeto criado com React.JS e Tailwindcss simulando o funcionamento de um formulario de login e de criação de conta.",
+      link: "https://form-with-progress.vercel.app/"
+    },
+    {
+      id: 5,
       urlImg: "./img-projects/imc-calc.png",
       title: "Calculadora de IMC utilizando TypeScript",
       description:
-        "Meu primeiro projeto integrando o TypeScript junto do React.",
+        "- Meu primeiro projeto integrando o TypeScript junto do React.",
       link: "https://joaoviictorss.github.io/imc-calculator/"
     },
   ];
@@ -43,7 +51,7 @@ const ProjectsSection = () => {
       <div className="projects-container container">
         {projects.map((project, index) => (
           <Project
-            key={index}
+            key={project.id}
             urlImg={project.urlImg}
             title={project.title}
             description={project.description}
