@@ -1,22 +1,3 @@
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    display: flex;
-  }
-}
-
-@keyframes fadeOut {
-  99% {
-    opacity: 0;
-  }
-  100% {
-    display: none;
-  }
-}
-
 .header {
   position: fixed;
   width: 100%;
@@ -95,7 +76,7 @@
     top: 8%;
     width: 135px;
     height: auto;
-    background-color: var(--body_background);
+    background-color: rgb(243, 243, 243);
   }
   .header nav ul.menuOpen {
     animation: fadeIn 1s ease-in-out forwards;

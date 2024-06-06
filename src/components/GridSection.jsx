@@ -7,12 +7,28 @@ const GridSection = () => {
       url: "./svg-gridIcons/javascript.svg",
     },
     {
+      name: "TypeScript",
+      url: "./svg-gridIcons/typescript.svg",
+    },
+    {
+      name: "Next.js",
+      url: "./svg-gridIcons/nextjs.svg",
+    },
+    {
       name: "React",
       url: "./svg-gridIcons/react.svg",
     },
     {
       name: "React Native",
       url: "./svg-gridIcons/react-native.svg",
+    },
+    {
+      name: "Prisma",
+      url: "./svg-gridIcons/prisma.svg",
+    },
+    {
+      name: "Python",
+      url: "./svg-gridIcons/python.svg",
     },
     {
       name: "HTML 5",
@@ -38,9 +54,14 @@ const GridSection = () => {
       name: "My SQL",
       url: "./svg-gridIcons/mysql.svg",
     },
+
     {
-      name: "TypeScript",
-      url: "./svg-gridIcons/typescript.svg",
+      name: "Sass",
+      url: "./svg-gridIcons/sass.svg",
+    },
+    {
+      name: "Tailwindcss",
+      url: "./svg-gridIcons/tailwindcss.svg",
     },
   ];
 

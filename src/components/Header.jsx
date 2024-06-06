@@ -13,56 +13,44 @@ const Header = () => {
     setMenuOpen((open) => !open);
   };
 
+  const options = [
+    {
+      label: "Home",
+      linkTo: "Home",
+    },
+    {
+      label: "Sobre Mim",
+      linkTo: "AboutMeSection",
+    },
+    {
+      label: "Meus Projetos",
+      linkTo: "ProjectsSection",
+    },
+    {
+      label: "Contato",
+      linkTo: "ContactMe",
+    },
+  ];
+
   return (
     <header className="header">
       <Logo />
       <div className="nav-container">
         <nav>
           <ul className={menuOpen ? "menuOpen" : "menuClose"}>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                to="Home"
-                activeClass="active"
-                duration={500}
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                activeClass="active"
-                to="AboutMeSection"
-                duration={500}
-              >
-                Sobre Mim
-              </Link>
-            </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                to="ProjectsSection"
-                activeClass="active"
-                duration={500}
-              >
-                Meus Projetos
-              </Link>
-            </li>
-            <li>
-              <Link
-                spy={true}
-                smooth={true}
-                to="ContactMe"
-                activeClass="active"
-                duration={500}
-              >
-                Contato
-              </Link>
-            </li>
+            {options.map((option,_) => (
+              <li key={_}>
+                <Link 
+                  spy={true}
+                  smooth={true}
+                  to={option.linkTo}
+                  activeClass="active"
+                  duration={500}
+                >
+                  {option.label}
+                </Link>
+              </li>
+            ))}
           </ul>
         </nav>
         <ThemeModeBtn />

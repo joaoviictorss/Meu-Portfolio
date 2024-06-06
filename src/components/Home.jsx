@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 
@@ -19,8 +20,7 @@ const Home = () => {
               cursorColor="#127AD8"
             />
             <p>
-              Sou um estudante de engenharia da computação e meu foco é atuar na
-              de desenvolvimento como desenvolvedor front-end.
+              Sou um estudante de engenharia da computação e meu foco é atuar na area de desenvolvimento de software como desenvolvedor front-end.
             </p>
             <a
               href="https://github.com/joaoviictorss"
@@ -42,7 +42,7 @@ const Home = () => {
                 download
                 className="button-download"
               >
-                Currículo
+                Baixar Currículo
               </a>
             </div>
           </div>

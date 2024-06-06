@@ -1,7 +1,7 @@
 .container-card-project {
   border: 1px solid #2a3343;
   border-radius: 14px;
-  height: 450px;
+
   overflow: hidden;
   background-color: #2a3343;
   color: white;
@@ -12,12 +12,10 @@
 
 .card-img {
   border-bottom: 1px solid #cac9c948;
-  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
   background-color: var(--bg_projects);
 }
 
@@ -25,37 +23,45 @@
   height: 270px;
 }
 
+.content-project {
+  background-color: #2a3343;
+  max-width: 100%;
+  margin: 12px;
+}
+
 .tittle-project {
   text-decoration: underline;
-  margin: 10px;
 }
 
 .text-project {
-  margin: 10px;
-  font-weight: lighter;
+  margin-top: 12px;
   color: rgb(216, 216, 216);
 }
 
 .btn-container {
-  background-color: var(--text_destaque);
-  margin: 20px 10px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 100px;
-  height: 40px;
-  border-radius: 14px;
-  transition-duration: 0.3s;
-  cursor: pointer;
+  gap: 20px;
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
 }
 
-.btn-container:hover {
-  background-color: rgb(93, 163, 221);
-}
-
-.link-ptoject {
+.link-project {
+  background-color: var(--text_destaque);
+  text-align: center;
+  padding: 6px;
   text-decoration: none;
   color: white;
+  transition-duration: 0.3s;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 50%;
+
+}
+
+.link-project:hover {
+  background-color: rgb(93, 163, 221);
 }
 
 @media (max-width: 950px) {
